@@ -1,0 +1,36 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
